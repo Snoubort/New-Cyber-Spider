@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "CoreGameplay",
+            "id": "8fea4a0e-d088-4ead-8777-aea60bdc2a90",
+            "actions": [
+                {
+                    "name": "RotateElement",
+                    "type": "Button",
+                    "id": "1ef30ec2-ff02-4eea-a818-945ca2151c9c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PlaceElement",
+                    "type": "Button",
+                    "id": "dd6b174e-7273-4a89-ad5e-ab8e34484eb3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5af8cdf8-a083-4082-bda7-f825546043a1",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateElement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb4317f6-20f1-4be1-9faf-b1e0527876f6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceElement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
